@@ -1,0 +1,1 @@
+# Bayesian-Logistic-and-Cauchit-Regression-with-Markov-Chain-Monte-Carlo-to-Address-Multicollinearity
