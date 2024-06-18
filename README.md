@@ -1,3 +1,7 @@
 # Bayesian Logistic and Cauchit Regression with MCMC to address high multicollinearity
 
+### Feedback from Dr. Samuel Livingstone, Department of Statistical Science at UCL
+Grade Awarded: A+ (80/100). Very well done project, showcasing clear understanding of the module. Excellent to code up lots of different samplers and compare, conclusions and plots shown are sensible and write up is also good. I would have suggested using more than only the last 10,000 samples to compute ESSs and possibly also computing Rhat, but you did an awful lot of very good work here, so on balance this is definitely A+ quality. Well done!
+
+### Project Overview
 This project investigates fitting logitistic and cauchit regression models on a 9-dimensional and 150-observation dataset with very high multicollinearity. Classically, parameter inference of these model using maximum likelihood and Newton-Raphson optimisation gives unstable and unreliable solutions because high multicollinearity causes near-singularity of the Hessian matrix. Bayesian in- ference is therefore an alternative that imposes regularisation effects by incorporating prior distribu- tions on the parameters, which helps stabilise estimates and reduce the impact of multicollinearity. One challenge is that in this case, the posterior over parameters is intractable because of high dimensionality and non-conjugate likelihood functions. We therefore approximate it with Markov chain Monte Carlo (MCMC) methods, specifically the Random Walk Metropolis (RWM) algorithm.
